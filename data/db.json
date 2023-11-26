@@ -1,0 +1,64 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "name": "Ordinateur",
+      "price": 789.98,
+      "backup": true,
+      "depot": {
+        "id": 2,
+        "name": "Fabriquant"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Écran",
+      "price": 109.75,
+      "backup": false,
+      "depot": {
+        "id": 2,
+        "name": "Fabriquant"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Imprimante",
+      "price": 150,
+      "backup": false,
+      "depot": {
+        "id": 2,
+        "name": "Fabriquant"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Cartouche",
+      "price": 43.55,
+      "backup": true,
+      "depot": {
+        "id": 1,
+        "name": "Consignation"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Papier",
+      "price": 9.99,
+      "backup": true,
+      "depot": {
+        "id": 1,
+        "name": "Consignation"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Chemisier",
+      "price": 9.98,
+      "backup": false,
+      "depot": {
+        "id": 3,
+        "name": "Intermediaire"
+      }
+    }
+  ]
+}
